@@ -1,0 +1,81 @@
+
+body {
+    color: #1e1e1e;
+    font-family: 'Work Sans';
+    font-size: 18px;
+    line-height: 1.5;;
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'PT Serif';
+}
+
+a {
+    text-decoration: none;
+    color: #1e1e1e;
+}
+
+h2 {
+    font-family: 'PT Serif';
+    color: #3bc8aa;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.title {
+    text-align: center;
+}
+
+.welcome {
+    padding:15px;
+    width: 50%;
+}
+
+main {
+    min-height: calc(100vh - 150px);
+  }
+  
+  footer {
+    font-size: 14px;
+    color: #999999;
+  }
+  
+  .reviewBody{
+    padding-left: 1rem;
+  }
+  label {
+    display: block;
+  }
+  
+  input, textarea {
+    font-size: 18px;
+    min-width: 400px;
+    border: 1px solid #cccccc;
+    padding: 7px 10px;
+    
+  }
+  
+  input[type=submit] {
+    border-radius: 5rem;
+    color: #fff;
+    background-color: #FF551A;
+    border-color: #FF551A;
+  }
+  
+  textarea {
+    min-height: 200px;
+  }
+
+  .newForm {
+    padding-left: 1rem;
+  }
+
+  .showForm {
+    padding: 1rem;
+  }

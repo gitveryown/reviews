@@ -1,0 +1,7 @@
+<% @reviews.each do |index| %> 
+
+    <div class="review">
+        <%= link_to index.title, review_path(index) %>
+    </div>
+<% end %>
+

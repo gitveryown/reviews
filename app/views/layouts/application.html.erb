@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Reviews</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+
+  <body>
+  <header>
+    <nav>
+      
+      <div class="logo"><%= link_to root_path do %>
+        <%= image_tag "cupcake.jpeg" %>
+        <% end %>
+      </div>
+      </nav>
+      <nav>
+      <h1 class="title">One Cheat Day</h1>
+      </nav>
+      <nav>
+      <div class="reviewPath">
+        <%= link_to "Add Your Review" , new_review_path  %>
+      </div>
+    </nav>
+
+    
+  </header>
+    <%= yield %>
+
+    <footer>
+     <p> Copyright 2023 Project Reviews </p>
+    </footer>
+  </body>
+</html>
